@@ -1,0 +1,6 @@
+{
+  "Lost_And_Found.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\amiro\\source\\repos\\Lost_And_Found\\Lost_And_Found\\src\\Lost_And_Found.Core",
+  "Lost_And_Found.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\amiro\\source\\repos\\Lost_And_Found\\Lost_And_Found\\src\\Lost_And_Found.Infrastructure",
+  "Lost_And_Found.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\amiro\\source\\repos\\Lost_And_Found\\Lost_And_Found\\tests\\Lost_And_Found.UnitTests",
+  "Lost_And_Found.UseCases, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\amiro\\source\\repos\\Lost_And_Found\\Lost_And_Found\\src\\Lost_And_Found.UseCases"
+}

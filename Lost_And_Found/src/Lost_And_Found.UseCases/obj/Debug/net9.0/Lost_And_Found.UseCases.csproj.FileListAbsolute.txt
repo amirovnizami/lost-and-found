@@ -1,0 +1,15 @@
+C:\Users\amiro\source\repos\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.UseCases\bin\Debug\net9.0\Lost_And_Found.UseCases.deps.json
+C:\Users\amiro\source\repos\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.UseCases\bin\Debug\net9.0\Lost_And_Found.UseCases.dll
+C:\Users\amiro\source\repos\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.UseCases\bin\Debug\net9.0\Lost_And_Found.UseCases.pdb
+C:\Users\amiro\source\repos\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.UseCases\bin\Debug\net9.0\Lost_And_Found.Core.dll
+C:\Users\amiro\source\repos\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.UseCases\bin\Debug\net9.0\Lost_And_Found.Core.pdb
+C:\Users\amiro\source\repos\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.UseCases\obj\Debug\net9.0\Lost_And_Found.UseCases.csproj.AssemblyReference.cache
+C:\Users\amiro\source\repos\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.UseCases\obj\Debug\net9.0\Lost_And_Found.UseCases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amiro\source\repos\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.UseCases\obj\Debug\net9.0\Lost_And_Found.UseCases.AssemblyInfoInputs.cache
+C:\Users\amiro\source\repos\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.UseCases\obj\Debug\net9.0\Lost_And_Found.UseCases.AssemblyInfo.cs
+C:\Users\amiro\source\repos\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.UseCases\obj\Debug\net9.0\Lost_And_Found.UseCases.csproj.CoreCompileInputs.cache
+C:\Users\amiro\source\repos\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.UseCases\obj\Debug\net9.0\Lost_And.D9E197BC.Up2Date
+C:\Users\amiro\source\repos\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.UseCases\obj\Debug\net9.0\Lost_And_Found.UseCases.dll
+C:\Users\amiro\source\repos\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.UseCases\obj\Debug\net9.0\refint\Lost_And_Found.UseCases.dll
+C:\Users\amiro\source\repos\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.UseCases\obj\Debug\net9.0\Lost_And_Found.UseCases.pdb
+C:\Users\amiro\source\repos\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.UseCases\obj\Debug\net9.0\ref\Lost_And_Found.UseCases.dll

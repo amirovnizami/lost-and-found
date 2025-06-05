@@ -1,0 +1,30 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="CleanArchitecture.nuspec" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Lost_And_Found.AspireHost/Lost_And_Found.AspireHost.csproj" />
+    <Project Path="src/Lost_And_Found.Core/Lost_And_Found.Core.csproj" />
+    <Project Path="src/Lost_And_Found.Infrastructure/Lost_And_Found.Infrastructure.csproj" />
+    <Project Path="src/Lost_And_Found.ServiceDefaults/Lost_And_Found.ServiceDefaults.csproj" />
+    <Project Path="src/Lost_And_Found.UseCases/Lost_And_Found.UseCases.csproj" />
+    <Project Path="src/Lost_And_Found.Web/Lost_And_Found.Web.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Lost_And_Found.FunctionalTests/Lost_And_Found.FunctionalTests.csproj">
+      <BuildDependency Project="src/Lost_And_Found.Web/Lost_And_Found.Web.csproj" />
+    </Project>
+    <Project Path="tests/Lost_And_Found.IntegrationTests/Lost_And_Found.IntegrationTests.csproj">
+      <BuildDependency Project="src/Lost_And_Found.Infrastructure/Lost_And_Found.Infrastructure.csproj" />
+    </Project>
+    <Project Path="tests/Lost_And_Found.UnitTests/Lost_And_Found.UnitTests.csproj" />
+  </Folder>
+</Solution>
