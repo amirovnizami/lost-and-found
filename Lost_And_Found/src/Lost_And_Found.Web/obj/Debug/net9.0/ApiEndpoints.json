@@ -144,6 +144,75 @@
   {
     "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
     "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "lost-items",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Lost_And_Found.Web.LostItems.List.ListLostItemResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "Lost_And_FoundWebLostItemsListList"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "lost-items/{ItemId:int}",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UpdateLostItemRequest",
+        "Type": "Lost_And_Found.Web.LostItems.Update.UpdateLostItemRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Lost_And_Found.Web.LostItems.Update.UpdateLostItemResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "Lost_And_FoundWebLostItemsUpdateUpdate"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "lost-items/{ItemId:int}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "GetByIdLostItemRequest",
+        "Type": "Lost_And_Found.Web.LostItems.GetById.GetByIdLostItemRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Lost_And_Found.Web.LostItems.LostItemRecord",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "Lost_And_FoundWebLostItemsGetByIdGetById"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
     "RelativePath": "lost-items/{ItemId:int}",
     "HttpMethod": "DELETE",
     "IsController": false,
@@ -163,5 +232,30 @@
       }
     ],
     "EndpointName": "Lost_And_FoundWebLostItemsDeleteDelete"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "users",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CreateUserRequest",
+        "Type": "Lost_And_Found.Web.Users.Create.CreateUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Lost_And_Found.Web.Users.Create.CreateUserResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "Lost_And_FoundWebUsersCreateCreate"
   }
 ]

@@ -17,3 +17,23 @@ C:\Users\amiro\source\repos\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Inf
 C:\Users\amiro\source\repos\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Infrastructure\obj\Debug\net9.0\Lost_And_Found.Infrastructure.pdb
 C:\Users\amiro\source\repos\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Infrastructure\obj\Debug\net9.0\Lost_And_Found.Infrastructure.genruntimeconfig.cache
 C:\Users\amiro\source\repos\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Infrastructure\obj\Debug\net9.0\ref\Lost_And_Found.Infrastructure.dll
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Infrastructure\bin\Debug\net9.0\Lost_And_Found.Infrastructure.deps.json
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Infrastructure\bin\Debug\net9.0\Lost_And_Found.Infrastructure.runtimeconfig.json
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Infrastructure\bin\Debug\net9.0\Lost_And_Found.Infrastructure.dll
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Infrastructure\bin\Debug\net9.0\Lost_And_Found.Infrastructure.pdb
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Infrastructure\bin\Debug\net9.0\Lost_And_Found.Core.dll
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Infrastructure\bin\Debug\net9.0\Lost_And_Found.UseCases.dll
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Infrastructure\bin\Debug\net9.0\Lost_And_Found.Core.pdb
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Infrastructure\bin\Debug\net9.0\Lost_And_Found.UseCases.pdb
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Infrastructure\obj\Debug\net9.0\Lost_And_Found.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Infrastructure\obj\Debug\net9.0\Lost_And_Found.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Infrastructure\obj\Debug\net9.0\Lost_And_Found.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Infrastructure\obj\Debug\net9.0\Lost_And_Found.Infrastructure.AssemblyInfo.cs
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Infrastructure\obj\Debug\net9.0\Lost_And_Found.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Infrastructure\obj\Debug\net9.0\Lost_And_Found.Infrastructure.sourcelink.json
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Infrastructure\obj\Debug\net9.0\Lost_And.C74042B7.Up2Date
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Infrastructure\obj\Debug\net9.0\Lost_And_Found.Infrastructure.dll
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Infrastructure\obj\Debug\net9.0\refint\Lost_And_Found.Infrastructure.dll
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Infrastructure\obj\Debug\net9.0\Lost_And_Found.Infrastructure.pdb
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Infrastructure\obj\Debug\net9.0\Lost_And_Found.Infrastructure.genruntimeconfig.cache
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Infrastructure\obj\Debug\net9.0\ref\Lost_And_Found.Infrastructure.dll

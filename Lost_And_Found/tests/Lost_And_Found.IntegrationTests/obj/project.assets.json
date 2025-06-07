@@ -87,6 +87,22 @@
           }
         }
       },
+      "AutoMapper/14.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Options": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Azure.Core/1.44.1": {
         "type": "package",
         "dependencies": {
@@ -2510,6 +2526,7 @@
         "dependencies": {
           "Ardalis.SharedKernel": "2.1.1",
           "Ardalis.Specification.EntityFrameworkCore": "8.0.0",
+          "AutoMapper": "14.0.0",
           "Azure.Identity": "1.13.1",
           "Lost_And_Found.Core": "1.0.0",
           "Lost_And_Found.UseCases": "1.0.0",
@@ -2685,6 +2702,21 @@
         "lib/net8.0/Ardalis.Specification.EntityFrameworkCore.dll",
         "lib/net8.0/Ardalis.Specification.EntityFrameworkCore.pdb",
         "lib/net8.0/Ardalis.Specification.EntityFrameworkCore.xml"
+      ]
+    },
+    "AutoMapper/14.0.0": {
+      "sha512": "OC+1neAPM4oCCqQj3g2GJ2shziNNhOkxmNB9cVS8jtx4JbgmRzLcUOxB9Tsz6cVPHugdkHgCaCrTjjSI0Z5sCQ==",
+      "type": "package",
+      "path": "automapper/14.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.14.0.0.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/net8.0/AutoMapper.dll",
+        "lib/net8.0/AutoMapper.xml"
       ]
     },
     "Azure.Core/1.44.1": {
@@ -6432,11 +6464,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\amiro\\source\\repos\\lost_and_found\\Lost_And_Found\\tests\\Lost_And_Found.IntegrationTests\\Lost_And_Found.IntegrationTests.csproj",
+      "projectUniqueName": "C:\\Users\\amiro\\OneDrive - Baku State University\\Desktop\\Lost_And_Found\\Lost_And_Found\\tests\\Lost_And_Found.IntegrationTests\\Lost_And_Found.IntegrationTests.csproj",
       "projectName": "Lost_And_Found.IntegrationTests",
-      "projectPath": "C:\\Users\\amiro\\source\\repos\\lost_and_found\\Lost_And_Found\\tests\\Lost_And_Found.IntegrationTests\\Lost_And_Found.IntegrationTests.csproj",
+      "projectPath": "C:\\Users\\amiro\\OneDrive - Baku State University\\Desktop\\Lost_And_Found\\Lost_And_Found\\tests\\Lost_And_Found.IntegrationTests\\Lost_And_Found.IntegrationTests.csproj",
       "packagesPath": "C:\\Users\\amiro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\amiro\\source\\repos\\Lost_And_Found\\Lost_And_Found\\tests\\Lost_And_Found.IntegrationTests\\obj\\",
+      "outputPath": "C:\\Users\\amiro\\OneDrive - Baku State University\\Desktop\\Lost_And_Found\\Lost_And_Found\\tests\\Lost_And_Found.IntegrationTests\\obj\\",
       "projectStyle": "PackageReference",
       "centralPackageVersionsManagementEnabled": true,
       "fallbackFolders": [
@@ -6458,11 +6490,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\amiro\\source\\repos\\lost_and_found\\Lost_And_Found\\src\\Lost_And_Found.Infrastructure\\Lost_And_Found.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\amiro\\source\\repos\\lost_and_found\\Lost_And_Found\\src\\Lost_And_Found.Infrastructure\\Lost_And_Found.Infrastructure.csproj"
+            "C:\\Users\\amiro\\OneDrive - Baku State University\\Desktop\\Lost_And_Found\\Lost_And_Found\\src\\Lost_And_Found.Infrastructure\\Lost_And_Found.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\amiro\\OneDrive - Baku State University\\Desktop\\Lost_And_Found\\Lost_And_Found\\src\\Lost_And_Found.Infrastructure\\Lost_And_Found.Infrastructure.csproj"
             },
-            "C:\\Users\\amiro\\source\\repos\\lost_and_found\\Lost_And_Found\\tests\\Lost_And_Found.UnitTests\\Lost_And_Found.UnitTests.csproj": {
-              "projectPath": "C:\\Users\\amiro\\source\\repos\\lost_and_found\\Lost_And_Found\\tests\\Lost_And_Found.UnitTests\\Lost_And_Found.UnitTests.csproj"
+            "C:\\Users\\amiro\\OneDrive - Baku State University\\Desktop\\Lost_And_Found\\Lost_And_Found\\tests\\Lost_And_Found.UnitTests\\Lost_And_Found.UnitTests.csproj": {
+              "projectPath": "C:\\Users\\amiro\\OneDrive - Baku State University\\Desktop\\Lost_And_Found\\Lost_And_Found\\tests\\Lost_And_Found.UnitTests\\Lost_And_Found.UnitTests.csproj"
             }
           }
         }
@@ -6529,6 +6561,7 @@
           "Ardalis.SmartEnum": "8.2.0",
           "Ardalis.Specification": "8.0.0",
           "Ardalis.Specification.EntityFrameworkCore": "8.0.0",
+          "AutoMapper": "14.0.0",
           "Azure.Identity": "1.13.1",
           "coverlet.collector": "6.0.2",
           "FastEndpoints": "5.32.0",

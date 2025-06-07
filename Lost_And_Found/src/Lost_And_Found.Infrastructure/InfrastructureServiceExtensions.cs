@@ -3,6 +3,7 @@ using Lost_And_Found.Core.Services;
 using Lost_And_Found.Infrastructure.Data;
 using Lost_And_Found.Infrastructure.Data.Queries;
 using Lost_And_Found.UseCases.Contributors.List;
+using Lost_And_Found.Web.LostItems.List;
 
 
 namespace Lost_And_Found.Infrastructure;
@@ -22,7 +23,8 @@ public static class InfrastructureServiceExtensions
            .AddScoped(typeof(IReadRepository<>), typeof(EfRepository<>))
            .AddScoped<IListContributorsQueryService, ListContributorsQueryService>()
            .AddScoped<IDeleteContributorService, DeleteContributorService>()
-           .AddScoped<IDeleteLostItemService, DeleteLostItemService>();
+           .AddScoped<IDeleteLostItemService, DeleteLostItemService>()
+           .AddScoped<IListLostItemsQueryService, ListLostItemsQueryService>();
 
 
     logger.LogInformation("{Project} services registered", "Infrastructure");

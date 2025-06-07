@@ -10,3 +10,16 @@ C:\Users\amiro\source\repos\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Cor
 C:\Users\amiro\source\repos\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Core\obj\Debug\net9.0\refint\Lost_And_Found.Core.dll
 C:\Users\amiro\source\repos\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Core\obj\Debug\net9.0\Lost_And_Found.Core.pdb
 C:\Users\amiro\source\repos\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Core\obj\Debug\net9.0\ref\Lost_And_Found.Core.dll
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Core\bin\Debug\net9.0\Lost_And_Found.Core.deps.json
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Core\bin\Debug\net9.0\Lost_And_Found.Core.dll
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Core\bin\Debug\net9.0\Lost_And_Found.Core.pdb
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Core\obj\Debug\net9.0\Lost_And_Found.Core.csproj.AssemblyReference.cache
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Core\obj\Debug\net9.0\Lost_And_Found.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Core\obj\Debug\net9.0\Lost_And_Found.Core.AssemblyInfoInputs.cache
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Core\obj\Debug\net9.0\Lost_And_Found.Core.AssemblyInfo.cs
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Core\obj\Debug\net9.0\Lost_And_Found.Core.csproj.CoreCompileInputs.cache
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Core\obj\Debug\net9.0\Lost_And_Found.Core.sourcelink.json
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Core\obj\Debug\net9.0\Lost_And_Found.Core.dll
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Core\obj\Debug\net9.0\refint\Lost_And_Found.Core.dll
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Core\obj\Debug\net9.0\Lost_And_Found.Core.pdb
+C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Core\obj\Debug\net9.0\ref\Lost_And_Found.Core.dll

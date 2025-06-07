@@ -3,6 +3,7 @@ using LostAndFound.Project.Core.LostItemAggregate;
 using LostAndFound.Project.Core.MatchAggregate;
 using LostAndFound.Project.Core.NotificationAggregate;
 using LostAndFound.Project.Core.ReportAggregate;
+using LostAndFound.Project.Core.UserAggregate;
 
 namespace Lost_And_Found.Infrastructure.Data;
 public class AppDbContext(DbContextOptions<AppDbContext> options,
@@ -12,6 +13,11 @@ public class AppDbContext(DbContextOptions<AppDbContext> options,
 
   public DbSet<Contributor> Contributors => Set<Contributor>();
   public DbSet<LostItem> LostItems => Set<LostItem>();
+  public DbSet<User> Users => Set<User>();
+  public DbSet<FoundItem> FoundItems => Set<FoundItem>();
+  public DbSet<Notification> Notification => Set<Notification>();
+  public DbSet<Report> Reports => Set<Report>();
+  //public DbSet<Match> Matches = Set<Match>();
 
   protected override void OnModelCreating(ModelBuilder modelBuilder)
   {

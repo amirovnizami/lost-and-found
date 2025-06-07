@@ -1,0 +1,903 @@
+2025-06-05 11:25:22.676 +04:00 [INF] Registered 7 endpoints in 2,119 milliseconds.
+2025-06-05 11:25:24.142 +04:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-05 11:25:24.322 +04:00 [INF] Executed DbCommand (171ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2025-06-05 11:25:24.569 +04:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Contributors] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-06-05 11:25:24.682 +04:00 [INF] Now listening on: https://localhost:57679
+2025-06-05 11:25:24.690 +04:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-06-05 11:25:25.305 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 11:25:25.306 +04:00 [INF] Hosting environment: Development
+2025-06-05 11:25:25.307 +04:00 [INF] Content root path: C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Web
+2025-06-05 11:26:31.375 +04:00 [INF] Registered 7 endpoints in 173 milliseconds.
+2025-06-05 11:26:32.059 +04:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-05 11:26:32.122 +04:00 [INF] Executed DbCommand (54ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2025-06-05 11:26:32.314 +04:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Contributors] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-06-05 11:26:32.363 +04:00 [ERR] Hosting failed to start
+System.InvalidOperationException: A path base can only be configured using IApplicationBuilder.UsePathBase().
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.ParseAddress(String address, Boolean& https)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-06-05 11:26:35.159 +04:00 [INF] Registered 7 endpoints in 137 milliseconds.
+2025-06-05 11:26:35.822 +04:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-05 11:26:35.869 +04:00 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2025-06-05 11:26:36.070 +04:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Contributors] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-06-05 11:26:36.109 +04:00 [ERR] Hosting failed to start
+System.InvalidOperationException: A path base can only be configured using IApplicationBuilder.UsePathBase().
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.ParseAddress(String address, Boolean& https)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-06-05 11:26:47.189 +04:00 [INF] Registered 7 endpoints in 126 milliseconds.
+2025-06-05 11:26:48.151 +04:00 [INF] Registered 7 endpoints in 132 milliseconds.
+2025-06-05 11:26:48.805 +04:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-05 11:26:48.851 +04:00 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2025-06-05 11:26:49.046 +04:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Contributors] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-06-05 11:26:49.112 +04:00 [INF] Now listening on: https://localhost:57679
+2025-06-05 11:26:49.119 +04:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-06-05 11:26:49.160 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 11:26:49.161 +04:00 [INF] Hosting environment: Development
+2025-06-05 11:26:49.161 +04:00 [INF] Content root path: C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Web
+2025-06-05 11:27:03.208 +04:00 [INF] Registered 7 endpoints in 127 milliseconds.
+2025-06-05 11:27:03.873 +04:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-05 11:27:03.913 +04:00 [INF] Executed DbCommand (31ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2025-06-05 11:27:04.120 +04:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Contributors] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-06-05 11:27:04.182 +04:00 [INF] Now listening on: https://localhost:57679
+2025-06-05 11:27:04.188 +04:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-06-05 11:27:04.228 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 11:27:04.230 +04:00 [INF] Hosting environment: Development
+2025-06-05 11:27:04.232 +04:00 [INF] Content root path: C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Web
+2025-06-05 11:27:09.558 +04:00 [INF] Registered 7 endpoints in 124 milliseconds.
+2025-06-05 11:27:10.220 +04:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-05 11:27:10.260 +04:00 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2025-06-05 11:27:10.431 +04:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Contributors] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-06-05 11:27:10.490 +04:00 [INF] Now listening on: https://localhost:57679
+2025-06-05 11:27:10.497 +04:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-06-05 11:27:10.536 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 11:27:10.538 +04:00 [INF] Hosting environment: Development
+2025-06-05 11:27:10.540 +04:00 [INF] Content root path: C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Web
+2025-06-05 11:28:23.734 +04:00 [INF] Registered 7 endpoints in 123 milliseconds.
+2025-06-05 11:28:24.379 +04:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-05 11:28:24.433 +04:00 [INF] Executed DbCommand (45ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2025-06-05 11:28:24.598 +04:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Contributors] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-06-05 11:28:24.657 +04:00 [INF] Now listening on: https://localhost:57679
+2025-06-05 11:28:24.664 +04:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-06-05 11:28:24.703 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 11:28:24.704 +04:00 [INF] Hosting environment: Development
+2025-06-05 11:28:24.707 +04:00 [INF] Content root path: C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Web
+2025-06-05 11:28:25.325 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger - null null
+2025-06-05 11:28:25.465 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger - 302 0 null 141.2484ms
+2025-06-05 11:28:25.471 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/index.html - null null
+2025-06-05 11:28:25.500 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/index.html - 200 null text/html; charset=utf-8 28.6912ms
+2025-06-05 11:28:25.510 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-05 11:28:25.519 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 9.3887ms
+2025-06-05 11:28:25.851 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/_vs/browserLink - null null
+2025-06-05 11:28:25.899 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.4048ms
+2025-06-05 11:28:26.002 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - null null
+2025-06-05 11:28:26.132 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 129.8505ms
+2025-06-05 11:31:04.952 +04:00 [INF] Registered 7 endpoints in 520 milliseconds.
+2025-06-05 11:31:06.127 +04:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-05 11:31:06.208 +04:00 [INF] Executed DbCommand (72ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2025-06-05 11:31:06.444 +04:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Contributors] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-06-05 11:31:06.624 +04:00 [INF] Now listening on: https://localhost:57679
+2025-06-05 11:31:06.632 +04:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-06-05 11:31:06.710 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 11:31:06.711 +04:00 [INF] Hosting environment: Development
+2025-06-05 11:31:06.713 +04:00 [INF] Content root path: C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Web
+2025-06-05 11:31:07.526 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger - null null
+2025-06-05 11:31:07.753 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger - 302 0 null 243.1684ms
+2025-06-05 11:31:07.761 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/index.html - null null
+2025-06-05 11:31:07.798 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/index.html - 200 null text/html; charset=utf-8 37.3771ms
+2025-06-05 11:31:07.809 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-05 11:31:07.820 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 12.3481ms
+2025-06-05 11:31:07.825 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/_vs/browserLink - null null
+2025-06-05 11:31:07.860 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.3163ms
+2025-06-05 11:31:07.949 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - null null
+2025-06-05 11:31:08.014 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 64.7876ms
+2025-06-05 11:31:18.631 +04:00 [INF] Request starting HTTP/2 DELETE https://localhost:57679/lost-items/1 - null null
+2025-06-05 11:31:18.655 +04:00 [INF] Executing endpoint 'HTTP: DELETE /lost-items/{ItemId:int}'
+2025-06-05 11:31:18.726 +04:00 [INF] Handling DeleteLostItemCommand
+2025-06-05 11:31:18.730 +04:00 [INF] Property itemId : 1
+2025-06-05 11:31:18.740 +04:00 [INF] Deleting Item 1
+2025-06-05 11:31:18.907 +04:00 [INF] Executed DbCommand (65ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Description], [l].[ImageUrl], [l].[ItemName], [l].[Location], [l].[LostDate], [l].[UserId]
+FROM [LostItems] AS [l]
+WHERE [l].[Id] = @__p_0
+2025-06-05 11:31:18.913 +04:00 [INF] Handled DeleteLostItemCommand with Ardalis.Result.Result in 181 ms
+2025-06-05 11:31:18.916 +04:00 [INF] Executed endpoint 'HTTP: DELETE /lost-items/{ItemId:int}'
+2025-06-05 11:31:18.924 +04:00 [INF] Request finished HTTP/2 DELETE https://localhost:57679/lost-items/1 - 204 null null 292.6547ms
+2025-06-05 11:31:37.755 +04:00 [INF] Request starting HTTP/2 DELETE https://localhost:57679/lost-items/1 - null null
+2025-06-05 11:31:37.760 +04:00 [INF] Executing endpoint 'HTTP: DELETE /lost-items/{ItemId:int}'
+2025-06-05 11:33:16.336 +04:00 [INF] Registered 7 endpoints in 342 milliseconds.
+2025-06-05 11:33:17.289 +04:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-05 11:33:17.329 +04:00 [INF] Executed DbCommand (31ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2025-06-05 11:33:17.554 +04:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Contributors] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-06-05 11:33:17.706 +04:00 [INF] Now listening on: https://localhost:57679
+2025-06-05 11:33:17.711 +04:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-06-05 11:33:17.772 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 11:33:17.773 +04:00 [INF] Hosting environment: Development
+2025-06-05 11:33:17.774 +04:00 [INF] Content root path: C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Web
+2025-06-05 11:33:18.494 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger - null null
+2025-06-05 11:33:18.627 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger - 302 0 null 140.1718ms
+2025-06-05 11:33:18.633 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/index.html - null null
+2025-06-05 11:33:18.662 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/index.html - 200 null text/html; charset=utf-8 29.0507ms
+2025-06-05 11:33:18.668 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-05 11:33:18.680 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 12.129ms
+2025-06-05 11:33:18.687 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/_vs/browserLink - null null
+2025-06-05 11:33:18.713 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.4339ms
+2025-06-05 11:33:18.808 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - null null
+2025-06-05 11:33:18.849 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 40.6138ms
+2025-06-05 11:44:14.379 +04:00 [INF] Registered 7 endpoints in 283 milliseconds.
+2025-06-05 11:44:15.431 +04:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-05 11:44:15.497 +04:00 [INF] Executed DbCommand (55ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2025-06-05 11:44:15.700 +04:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Contributors] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-06-05 11:44:15.806 +04:00 [INF] Now listening on: https://localhost:57679
+2025-06-05 11:44:15.813 +04:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-06-05 11:44:16.223 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger - null null
+2025-06-05 11:44:16.317 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger - 302 0 null 97.0588ms
+2025-06-05 11:44:16.323 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/index.html - null null
+2025-06-05 11:44:16.358 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/index.html - 200 null text/html; charset=utf-8 35.3912ms
+2025-06-05 11:44:16.364 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-05 11:44:16.372 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 7.7676ms
+2025-06-05 11:44:16.383 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/_vs/browserLink - null null
+2025-06-05 11:44:16.409 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.9868ms
+2025-06-05 11:44:16.517 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - null null
+2025-06-05 11:44:16.551 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 34.5152ms
+2025-06-05 11:44:16.555 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 11:44:16.559 +04:00 [INF] Hosting environment: Development
+2025-06-05 11:44:16.560 +04:00 [INF] Content root path: C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Web
+2025-06-05 11:45:16.134 +04:00 [INF] Request starting HTTP/2 POST https://localhost:57679/lost-items - application/json 202
+2025-06-05 11:45:16.140 +04:00 [INF] Executing endpoint 'HTTP: POST /lost-items'
+2025-06-05 11:45:16.223 +04:00 [INF] Executed endpoint 'HTTP: POST /lost-items'
+2025-06-05 11:45:16.230 +04:00 [INF] Request finished HTTP/2 POST https://localhost:57679/lost-items - 400 null application/problem+json; charset=utf-8 96.3651ms
+2025-06-05 11:45:32.970 +04:00 [INF] Request starting HTTP/2 POST https://localhost:57679/lost-items - application/json 204
+2025-06-05 11:45:32.977 +04:00 [INF] Executing endpoint 'HTTP: POST /lost-items'
+2025-06-05 11:45:33.031 +04:00 [INF] Handling CreateLostItemCommand
+2025-06-05 11:45:33.035 +04:00 [INF] Property ItemName : Phone
+2025-06-05 11:45:33.038 +04:00 [INF] Property Description : I found a blue smartfon
+2025-06-05 11:45:33.042 +04:00 [INF] Property ImageUrl : a32.jpeg
+2025-06-05 11:45:33.047 +04:00 [INF] Property Location : Amsterdam,Netherlands
+2025-06-05 11:45:33.051 +04:00 [INF] Property LostDate : "2025-06-05T11:44:14.3601775+04:00"
+2025-06-05 11:45:33.055 +04:00 [INF] Property Reward : 10$
+2025-06-05 11:45:33.483 +04:00 [ERR] Failed executing DbCommand (44ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [LostItems] ([Description], [ImageUrl], [ItemName], [Location], [LostDate], [Reward], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2025-06-05 11:45:33.529 +04:00 [ERR] An exception occurred in the database while saving changes for context type 'Lost_And_Found.Infrastructure.Data.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Reward'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:5f79de5b-2d6e-4fd7-8371-3035683f6381
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Reward'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:5f79de5b-2d6e-4fd7-8371-3035683f6381
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-06-05 11:45:33.620 +04:00 [INF] Executed endpoint 'HTTP: POST /lost-items'
+2025-06-05 11:45:33.626 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Reward'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:5f79de5b-2d6e-4fd7-8371-3035683f6381
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Lost_And_Found.Infrastructure.Data.AppDbContext.SaveChangesAsync(CancellationToken cancellationToken) in C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Infrastructure\Data\AppDbContext.cs:line 73
+   at Ardalis.Specification.EntityFrameworkCore.RepositoryBase`1.SaveChangesAsync(CancellationToken cancellationToken)
+   at Ardalis.Specification.EntityFrameworkCore.RepositoryBase`1.AddAsync(T entity, CancellationToken cancellationToken)
+   at LostAndFound.Project.UseCases.LostItems.Create.CreateLostItemHandler.Handle(CreateLostItemCommand request, CancellationToken cancellationToken) in C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.UseCases\LostItems\Create\CreateLostItemHandler.cs:line 11
+   at Ardalis.SharedKernel.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at LostAndFound.Project.Web.LostItems.Create.Create.HandleAsync(CreateLostItemRequest request, CancellationToken ct) in C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Web\LostItems\Create\Create.cs:line 22
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at NSwag.AspNetCore.Middlewares.SwaggerUiIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.RedirectToIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.OpenApiDocumentMiddleware.Invoke(HttpContext context)
+   at Ardalis.ListStartupServices.ShowAllServicesMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-05 11:45:33.745 +04:00 [INF] Request finished HTTP/2 POST https://localhost:57679/lost-items - 500 null text/plain; charset=utf-8 775.2792ms
+2025-06-05 11:46:08.130 +04:00 [INF] Registered 7 endpoints in 175 milliseconds.
+2025-06-05 11:46:08.898 +04:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-05 11:46:08.961 +04:00 [INF] Executed DbCommand (52ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2025-06-05 11:46:09.225 +04:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Contributors] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-06-05 11:46:09.309 +04:00 [INF] Now listening on: https://localhost:57679
+2025-06-05 11:46:09.316 +04:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-06-05 11:46:09.376 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 11:46:09.377 +04:00 [INF] Hosting environment: Development
+2025-06-05 11:46:09.378 +04:00 [INF] Content root path: C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Web
+2025-06-05 11:46:09.682 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/index.html - null null
+2025-06-05 11:46:09.787 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/index.html - 200 null text/html; charset=utf-8 106.8611ms
+2025-06-05 11:46:09.804 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/_vs/browserLink - null null
+2025-06-05 11:46:09.808 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-05 11:46:09.817 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 8.8391ms
+2025-06-05 11:46:09.846 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.5748ms
+2025-06-05 11:46:10.137 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - null null
+2025-06-05 11:46:10.178 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 41.0407ms
+2025-06-05 11:46:38.729 +04:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-05 11:46:38.749 +04:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-06-05 11:46:38.784 +04:00 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-06-05 11:46:38.836 +04:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-06-05 11:46:38.848 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-05 11:46:38.849 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-06-05 11:46:38.859 +04:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-06-05 11:46:38.866 +04:00 [INF] Applying migration '20250605074627_Reward_added'.
+2025-06-05 11:46:38.942 +04:00 [INF] Executed DbCommand (67ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [LostItems] ADD [Reward] nvarchar(max) NULL;
+2025-06-05 11:46:38.950 +04:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250605074627_Reward_added', N'9.0.0');
+2025-06-05 11:46:38.959 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-06-05 11:46:43.836 +04:00 [INF] Registered 7 endpoints in 147 milliseconds.
+2025-06-05 11:46:44.547 +04:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-05 11:46:44.607 +04:00 [INF] Executed DbCommand (51ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2025-06-05 11:46:44.783 +04:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Contributors] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-06-05 11:46:44.845 +04:00 [INF] Now listening on: https://localhost:57679
+2025-06-05 11:46:44.852 +04:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-06-05 11:46:44.892 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 11:46:44.894 +04:00 [INF] Hosting environment: Development
+2025-06-05 11:46:44.896 +04:00 [INF] Content root path: C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Web
+2025-06-05 11:46:45.093 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/index.html - null null
+2025-06-05 11:46:45.212 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/index.html - 200 null text/html; charset=utf-8 119.4121ms
+2025-06-05 11:46:45.262 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/_vs/browserLink - null null
+2025-06-05 11:46:45.262 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-05 11:46:45.270 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 8.2678ms
+2025-06-05 11:46:45.300 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.0379ms
+2025-06-05 11:46:45.350 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - null null
+2025-06-05 11:46:45.464 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 114.1851ms
+2025-06-05 11:47:23.926 +04:00 [INF] Request starting HTTP/2 POST https://localhost:57679/lost-items - application/json 185
+2025-06-05 11:47:23.939 +04:00 [INF] Executing endpoint 'HTTP: POST /lost-items'
+2025-06-05 11:47:24.005 +04:00 [INF] Handling CreateLostItemCommand
+2025-06-05 11:47:24.008 +04:00 [INF] Property ItemName : Smartfon
+2025-06-05 11:47:24.013 +04:00 [INF] Property Description : A blue phone
+2025-06-05 11:47:24.014 +04:00 [INF] Property ImageUrl : phone.png
+2025-06-05 11:47:24.015 +04:00 [INF] Property Location : Amsterdam
+2025-06-05 11:47:24.015 +04:00 [INF] Property LostDate : "2025-06-05T11:46:43.8115969+04:00"
+2025-06-05 11:47:24.016 +04:00 [INF] Property Reward : 10$
+2025-06-05 11:47:24.187 +04:00 [INF] Executed DbCommand (38ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [LostItems] ([Description], [ImageUrl], [ItemName], [Location], [LostDate], [Reward], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2025-06-05 11:47:24.212 +04:00 [INF] Handled CreateLostItemCommand with Ardalis.Result.Result`1[System.Int32] in 194 ms
+2025-06-05 11:47:24.220 +04:00 [INF] Executed endpoint 'HTTP: POST /lost-items'
+2025-06-05 11:47:24.226 +04:00 [INF] Request finished HTTP/2 POST https://localhost:57679/lost-items - 200 null application/json; charset=utf-8 299.3093ms
+2025-06-05 12:44:01.834 +04:00 [INF] Registered 8 endpoints in 146 milliseconds.
+2025-06-05 12:44:02.484 +04:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-05 12:44:02.559 +04:00 [INF] Executed DbCommand (66ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2025-06-05 12:44:02.789 +04:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Contributors] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-06-05 12:44:02.862 +04:00 [INF] Now listening on: https://localhost:57679
+2025-06-05 12:44:02.867 +04:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-06-05 12:44:02.911 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 12:44:02.913 +04:00 [INF] Hosting environment: Development
+2025-06-05 12:44:02.914 +04:00 [INF] Content root path: C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Web
+2025-06-05 12:44:03.331 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger - null null
+2025-06-05 12:44:03.414 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger - 302 0 null 84.2411ms
+2025-06-05 12:44:03.419 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/index.html - null null
+2025-06-05 12:44:03.444 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/index.html - 200 null text/html; charset=utf-8 24.7395ms
+2025-06-05 12:44:03.451 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-05 12:44:03.461 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 10.1242ms
+2025-06-05 12:44:03.471 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/_vs/browserLink - null null
+2025-06-05 12:44:03.495 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.8672ms
+2025-06-05 12:44:03.594 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - null null
+2025-06-05 12:44:03.632 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 37.6441ms
+2025-06-05 12:45:38.860 +04:00 [INF] Registered 8 endpoints in 124 milliseconds.
+2025-06-05 12:45:39.536 +04:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-05 12:45:39.608 +04:00 [INF] Executed DbCommand (63ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2025-06-05 12:45:39.809 +04:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Contributors] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-06-05 12:45:39.872 +04:00 [INF] Now listening on: https://localhost:57679
+2025-06-05 12:45:39.878 +04:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-06-05 12:45:39.917 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 12:45:39.920 +04:00 [INF] Hosting environment: Development
+2025-06-05 12:45:39.921 +04:00 [INF] Content root path: C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Web
+2025-06-05 12:45:40.055 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/index.html - null null
+2025-06-05 12:45:40.162 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/index.html - 200 null text/html; charset=utf-8 108.0081ms
+2025-06-05 12:45:40.240 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-05 12:45:40.241 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/_vs/browserLink - null null
+2025-06-05 12:45:40.244 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 3.7355ms
+2025-06-05 12:45:40.263 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.7762ms
+2025-06-05 12:45:40.325 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - null null
+2025-06-05 12:45:40.401 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 75.8066ms
+2025-06-05 12:47:03.964 +04:00 [INF] Request starting HTTP/2 PUT https://localhost:57679/lost-items/4 - application/json 89
+2025-06-05 12:47:03.973 +04:00 [INF] Executing endpoint 'HTTP: PUT /lost-items/{ItemId:int}'
+2025-06-05 12:47:04.034 +04:00 [INF] Handling UpdateLostItemCommand
+2025-06-05 12:47:04.037 +04:00 [INF] Property ItemId : 4
+2025-06-05 12:47:04.038 +04:00 [INF] Property ItemName : Iphone12
+2025-06-05 12:47:04.040 +04:00 [INF] Property Description : Black colour
+2025-06-05 12:47:04.041 +04:00 [INF] Property ImageUrl : iphone.png
+2025-06-05 12:47:04.167 +04:00 [INF] Executed DbCommand (15ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Description], [l].[ImageUrl], [l].[ItemName], [l].[Location], [l].[LostDate], [l].[Reward], [l].[UserId]
+FROM [LostItems] AS [l]
+WHERE [l].[Id] = @__p_0
+2025-06-05 12:47:04.302 +04:00 [INF] Executed DbCommand (24ms) [Parameters=[@p7='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (Size = 4000), @p6='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [LostItems] SET [Description] = @p0, [ImageUrl] = @p1, [ItemName] = @p2, [Location] = @p3, [LostDate] = @p4, [Reward] = @p5, [UserId] = @p6
+OUTPUT 1
+WHERE [Id] = @p7;
+2025-06-05 12:47:04.317 +04:00 [INF] Handled UpdateLostItemCommand with Ardalis.Result.Result`1[Lost_And_Found.UseCases.LostItems.Update.LostItemDTO] in 275 ms
+2025-06-05 12:47:04.324 +04:00 [INF] Executed endpoint 'HTTP: PUT /lost-items/{ItemId:int}'
+2025-06-05 12:47:04.334 +04:00 [INF] Request finished HTTP/2 PUT https://localhost:57679/lost-items/4 - 200 null application/json; charset=utf-8 369.9193ms
+2025-06-05 15:49:18.307 +04:00 [INF] Registered 9 endpoints in 2,145 milliseconds.
+2025-06-05 15:49:19.491 +04:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-05 15:49:19.575 +04:00 [INF] Executed DbCommand (76ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2025-06-05 15:49:19.781 +04:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Contributors] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-06-05 15:49:19.852 +04:00 [INF] Now listening on: https://localhost:57679
+2025-06-05 15:49:19.858 +04:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-06-05 15:49:19.903 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 15:49:19.904 +04:00 [INF] Hosting environment: Development
+2025-06-05 15:49:19.906 +04:00 [INF] Content root path: C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Web
+2025-06-05 15:49:20.358 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger - null null
+2025-06-05 15:49:20.461 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger - 302 0 null 103.7666ms
+2025-06-05 15:49:20.469 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/index.html - null null
+2025-06-05 15:49:20.505 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/index.html - 200 null text/html; charset=utf-8 35.9872ms
+2025-06-05 15:49:20.524 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-05 15:49:20.541 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 16.7793ms
+2025-06-05 15:49:20.864 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/_vs/browserLink - null null
+2025-06-05 15:49:20.890 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.2263ms
+2025-06-05 15:49:20.987 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - null null
+2025-06-05 15:49:21.097 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 110.0047ms
+2025-06-05 15:49:28.590 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/lost-items/4 - null null
+2025-06-05 15:49:28.601 +04:00 [INF] Executing endpoint 'HTTP: GET /lost-items/{ItemId:int}'
+2025-06-05 15:49:28.691 +04:00 [INF] Handling GetLostItemQuery
+2025-06-05 15:49:28.695 +04:00 [INF] Property ItemId : 4
+2025-06-05 15:49:28.934 +04:00 [INF] Executed DbCommand (33ms) [Parameters=[@__itemId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Description], [l].[ImageUrl], [l].[ItemName], [l].[Location], [l].[LostDate], [l].[Reward], [l].[UserId]
+FROM [LostItems] AS [l]
+WHERE [l].[Id] = @__itemId_0
+2025-06-05 15:49:29.062 +04:00 [INF] Handled GetLostItemQuery with Ardalis.Result.Result`1[Lost_And_Found.UseCases.LostItems.Update.LostItemDTO] in 364 ms
+2025-06-05 15:49:29.076 +04:00 [INF] Executed endpoint 'HTTP: GET /lost-items/{ItemId:int}'
+2025-06-05 15:49:29.086 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/lost-items/4 - 200 null application/json; charset=utf-8 496.0853ms
+2025-06-05 16:48:05.967 +04:00 [INF] Registered 9 endpoints in 156 milliseconds.
+2025-06-05 16:48:47.436 +04:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-05 16:48:47.457 +04:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-06-05 16:48:47.486 +04:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-06-05 16:48:47.529 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-06-05 16:48:47.537 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-05 16:48:47.538 +04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-06-05 16:48:47.548 +04:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-06-05 16:48:47.557 +04:00 [INF] Applying migration '20250605124837_Update_Lostitem_entity'.
+2025-06-05 16:48:47.592 +04:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [LostItems] ADD [IsFound] bit NOT NULL DEFAULT CAST(0 AS bit);
+2025-06-05 16:48:47.596 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250605124837_Update_Lostitem_entity', N'9.0.0');
+2025-06-05 16:48:47.602 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-06-05 16:48:58.766 +04:00 [INF] Registered 9 endpoints in 165 milliseconds.
+2025-06-05 16:48:59.450 +04:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-05 16:48:59.523 +04:00 [INF] Executed DbCommand (64ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2025-06-05 16:48:59.699 +04:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Contributors] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-06-05 16:48:59.771 +04:00 [INF] Now listening on: https://localhost:57679
+2025-06-05 16:48:59.778 +04:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-06-05 16:48:59.822 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 16:48:59.823 +04:00 [INF] Hosting environment: Development
+2025-06-05 16:48:59.826 +04:00 [INF] Content root path: C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Web
+2025-06-05 16:48:59.909 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/index.html - null null
+2025-06-05 16:49:00.034 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/index.html - 200 null text/html; charset=utf-8 125.8445ms
+2025-06-05 16:49:00.064 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-05 16:49:00.071 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 6.6131ms
+2025-06-05 16:49:00.086 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/_vs/browserLink - null null
+2025-06-05 16:49:00.112 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.6541ms
+2025-06-05 16:49:00.256 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - null null
+2025-06-05 16:49:00.320 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 63.3187ms
+2025-06-05 16:49:09.293 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/lost-items/4 - null null
+2025-06-05 16:49:09.308 +04:00 [INF] Executing endpoint 'HTTP: GET /lost-items/{ItemId:int}'
+2025-06-05 16:49:09.389 +04:00 [INF] Handling GetLostItemQuery
+2025-06-05 16:49:09.391 +04:00 [INF] Property ItemId : 4
+2025-06-05 16:49:09.643 +04:00 [INF] Executed DbCommand (42ms) [Parameters=[@__itemId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Description], [l].[ImageUrl], [l].[IsFound], [l].[ItemName], [l].[Location], [l].[LostDate], [l].[Reward], [l].[UserId]
+FROM [LostItems] AS [l]
+WHERE [l].[Id] = @__itemId_0
+2025-06-05 16:49:09.771 +04:00 [INF] Handled GetLostItemQuery with Ardalis.Result.Result`1[Lost_And_Found.UseCases.LostItems.LostItemDTO] in 378 ms
+2025-06-05 16:49:09.789 +04:00 [INF] Executed endpoint 'HTTP: GET /lost-items/{ItemId:int}'
+2025-06-05 16:49:09.802 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/lost-items/4 - 200 null application/json; charset=utf-8 508.9321ms
+2025-06-05 16:54:01.558 +04:00 [INF] Registered 9 endpoints in 132 milliseconds.
+2025-06-05 16:54:02.262 +04:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-05 16:54:02.346 +04:00 [INF] Executed DbCommand (73ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2025-06-05 16:54:02.541 +04:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Contributors] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-06-05 16:54:02.609 +04:00 [INF] Now listening on: https://localhost:57679
+2025-06-05 16:54:02.615 +04:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-06-05 16:54:02.660 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-05 16:54:02.661 +04:00 [INF] Hosting environment: Development
+2025-06-05 16:54:02.665 +04:00 [INF] Content root path: C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Web
+2025-06-05 16:54:02.706 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/index.html - null null
+2025-06-05 16:54:02.857 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/index.html - 200 null text/html; charset=utf-8 151.197ms
+2025-06-05 16:54:02.878 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/_vs/browserLink - null null
+2025-06-05 16:54:02.878 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-05 16:54:02.888 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 9.706ms
+2025-06-05 16:54:02.908 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.0618ms
+2025-06-05 16:54:03.360 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - null null
+2025-06-05 16:54:03.404 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 43.6227ms
+2025-06-05 16:54:06.686 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/lost-items/4 - null null
+2025-06-05 16:54:06.696 +04:00 [INF] Executing endpoint 'HTTP: GET /lost-items/{ItemId:int}'
+2025-06-05 16:54:06.741 +04:00 [INF] Handling GetLostItemQuery
+2025-06-05 16:54:06.743 +04:00 [INF] Property ItemId : 4
+2025-06-05 16:54:06.834 +04:00 [INF] Executed DbCommand (23ms) [Parameters=[@__itemId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Description], [l].[ImageUrl], [l].[IsFound], [l].[ItemName], [l].[Location], [l].[LostDate], [l].[Reward], [l].[UserId]
+FROM [LostItems] AS [l]
+WHERE [l].[Id] = @__itemId_0
+2025-06-05 16:54:06.881 +04:00 [INF] Handled GetLostItemQuery with Ardalis.Result.Result`1[Lost_And_Found.UseCases.LostItems.LostItemDTO] in 136 ms
+2025-06-05 16:54:06.893 +04:00 [INF] Executed endpoint 'HTTP: GET /lost-items/{ItemId:int}'
+2025-06-05 16:54:06.901 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/lost-items/4 - 200 null application/json; charset=utf-8 214.5881ms

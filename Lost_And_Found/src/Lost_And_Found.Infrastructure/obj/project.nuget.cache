@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+AtY+o9nLDo=",
+  "dgSpecHash": "NYTot/glmm0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\amiro\\source\\repos\\lost_and_found\\Lost_And_Found\\src\\Lost_And_Found.Infrastructure\\Lost_And_Found.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\amiro\\OneDrive - Baku State University\\Desktop\\Lost_And_Found\\Lost_And_Found\\src\\Lost_And_Found.Infrastructure\\Lost_And_Found.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\amiro\\.nuget\\packages\\ardalis.guardclauses\\5.0.0\\ardalis.guardclauses.5.0.0.nupkg.sha512",
     "C:\\Users\\amiro\\.nuget\\packages\\ardalis.result\\10.1.0\\ardalis.result.10.1.0.nupkg.sha512",
@@ -10,6 +10,7 @@
     "C:\\Users\\amiro\\.nuget\\packages\\ardalis.smartenum\\8.2.0\\ardalis.smartenum.8.2.0.nupkg.sha512",
     "C:\\Users\\amiro\\.nuget\\packages\\ardalis.specification\\8.0.0\\ardalis.specification.8.0.0.nupkg.sha512",
     "C:\\Users\\amiro\\.nuget\\packages\\ardalis.specification.entityframeworkcore\\8.0.0\\ardalis.specification.entityframeworkcore.8.0.0.nupkg.sha512",
+    "C:\\Users\\amiro\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\amiro\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",
     "C:\\Users\\amiro\\.nuget\\packages\\azure.identity\\1.13.1\\azure.identity.1.13.1.nupkg.sha512",
     "C:\\Users\\amiro\\.nuget\\packages\\bouncycastle.cryptography\\2.5.0\\bouncycastle.cryptography.2.5.0.nupkg.sha512",

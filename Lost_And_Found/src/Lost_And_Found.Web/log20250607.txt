@@ -1,0 +1,222 @@
+2025-06-07 12:18:27.272 +04:00 [INF] Registered 10 endpoints in 2,128 milliseconds.
+2025-06-07 12:18:28.796 +04:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-07 12:18:28.890 +04:00 [INF] Executed DbCommand (86ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2025-06-07 12:18:29.140 +04:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Contributors] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-06-07 12:18:29.314 +04:00 [INF] Now listening on: https://localhost:57679
+2025-06-07 12:18:29.322 +04:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-06-07 12:18:29.853 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger - null null
+2025-06-07 12:18:29.971 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger - 302 0 null 121.0915ms
+2025-06-07 12:18:29.980 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/index.html - null null
+2025-06-07 12:18:30.009 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/index.html - 200 null text/html; charset=utf-8 28.8371ms
+2025-06-07 12:18:30.013 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-07 12:18:30.023 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 9.1102ms
+2025-06-07 12:18:30.205 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-07 12:18:30.207 +04:00 [INF] Hosting environment: Development
+2025-06-07 12:18:30.208 +04:00 [INF] Content root path: C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Web
+2025-06-07 12:18:30.488 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/_vs/browserLink - null null
+2025-06-07 12:18:30.561 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/_vs/browserLink - 200 null text/javascript; charset=UTF-8 72.6487ms
+2025-06-07 12:18:30.629 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - null null
+2025-06-07 12:18:30.722 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 93.4238ms
+2025-06-07 12:52:59.537 +04:00 [INF] Registered 11 endpoints in 173 milliseconds.
+2025-06-07 12:53:00.236 +04:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-07 12:53:00.310 +04:00 [INF] Executed DbCommand (65ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2025-06-07 12:53:00.516 +04:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Contributors] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-06-07 12:53:00.589 +04:00 [INF] Now listening on: https://localhost:57679
+2025-06-07 12:53:00.597 +04:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-06-07 12:53:00.643 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-07 12:53:00.645 +04:00 [INF] Hosting environment: Development
+2025-06-07 12:53:00.647 +04:00 [INF] Content root path: C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Web
+2025-06-07 12:53:00.897 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/index.html - null null
+2025-06-07 12:53:00.999 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/index.html - 200 null text/html; charset=utf-8 103.4258ms
+2025-06-07 12:53:01.045 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-07 12:53:01.048 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/_vs/browserLink - null null
+2025-06-07 12:53:01.053 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 7.9259ms
+2025-06-07 12:53:01.079 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.7143ms
+2025-06-07 12:53:01.225 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - null null
+2025-06-07 12:53:01.263 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 37.5513ms
+2025-06-07 12:54:04.645 +04:00 [INF] Request starting HTTP/2 POST https://localhost:57679/users - application/json 137
+2025-06-07 12:54:04.659 +04:00 [INF] Executing endpoint 'HTTP: POST /users'
+2025-06-07 12:54:04.763 +04:00 [INF] Handling CreateUserCommand
+2025-06-07 12:54:04.768 +04:00 [INF] Property Name : Nizami
+2025-06-07 12:54:04.771 +04:00 [INF] Property Email : nizamiamirov@gmail.com
+2025-06-07 12:54:04.773 +04:00 [INF] Property Password : Nizami1881
+2025-06-07 12:54:04.774 +04:00 [INF] Property PhooneNumber : 9803481244
+2025-06-07 12:54:04.780 +04:00 [INF] Property IsAdmin : true
+2025-06-07 12:54:05.186 +04:00 [INF] Executed DbCommand (35ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Boolean), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [User] ([Email], [IsAdmin], [Name], [PasswordHash], [PhoneNumber])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2025-06-07 12:54:05.253 +04:00 [INF] Handled CreateUserCommand with Ardalis.Result.Result`1[System.Int32] in 467 ms
+2025-06-07 12:54:05.265 +04:00 [INF] Executed endpoint 'HTTP: POST /users'
+2025-06-07 12:54:05.274 +04:00 [INF] Request finished HTTP/2 POST https://localhost:57679/users - 200 null application/json; charset=utf-8 629.4504ms
+2025-06-07 12:58:12.141 +04:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-07 12:58:12.178 +04:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-06-07 12:58:12.198 +04:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_getapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session', @LockMode = 'Exclusive';
+SELECT @result
+2025-06-07 12:58:12.243 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF OBJECT_ID(N'[__EFMigrationsHistory]') IS NULL
+BEGIN
+    CREATE TABLE [__EFMigrationsHistory] (
+        [MigrationId] nvarchar(150) NOT NULL,
+        [ProductVersion] nvarchar(32) NOT NULL,
+        CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+    );
+END;
+2025-06-07 12:58:12.254 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-07 12:58:12.255 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-06-07 12:58:12.262 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-06-07 12:58:12.270 +04:00 [INF] Applying migration '20250607085800_tables_updated'.
+2025-06-07 12:58:12.305 +04:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [FoundItem] DROP CONSTRAINT [FK_FoundItem_User_UserId];
+2025-06-07 12:58:12.310 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [LostItems] DROP CONSTRAINT [FK_LostItems_User_UserId];
+2025-06-07 12:58:12.315 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Match] DROP CONSTRAINT [FK_Match_FoundItem_FoundItemId];
+2025-06-07 12:58:12.319 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Notification] DROP CONSTRAINT [FK_Notification_User_UserId];
+2025-06-07 12:58:12.323 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Report] DROP CONSTRAINT [FK_Report_FoundItem_FoundItemId];
+2025-06-07 12:58:12.325 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Report] DROP CONSTRAINT [FK_Report_LostItems_LostItemId];
+2025-06-07 12:58:12.329 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Report] DROP CONSTRAINT [FK_Report_User_UserId];
+2025-06-07 12:58:12.349 +04:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [User] DROP CONSTRAINT [PK_User];
+2025-06-07 12:58:12.362 +04:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Report] DROP CONSTRAINT [PK_Report];
+2025-06-07 12:58:12.370 +04:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [FoundItem] DROP CONSTRAINT [PK_FoundItem];
+2025-06-07 12:58:13.025 +04:00 [INF] Executed DbCommand (654ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_rename N'[User]', N'Users', 'OBJECT';
+2025-06-07 12:58:13.028 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_rename N'[Report]', N'Reports', 'OBJECT';
+2025-06-07 12:58:13.031 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_rename N'[FoundItem]', N'FoundItems', 'OBJECT';
+2025-06-07 12:58:13.034 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_rename N'[Reports].[IX_Report_UserId]', N'IX_Reports_UserId', 'INDEX';
+2025-06-07 12:58:13.037 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_rename N'[Reports].[IX_Report_LostItemId]', N'IX_Reports_LostItemId', 'INDEX';
+2025-06-07 12:58:13.038 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_rename N'[Reports].[IX_Report_FoundItemId]', N'IX_Reports_FoundItemId', 'INDEX';
+2025-06-07 12:58:13.040 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_rename N'[FoundItems].[IX_FoundItem_UserId]', N'IX_FoundItems_UserId', 'INDEX';
+2025-06-07 12:58:13.067 +04:00 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Users] ADD CONSTRAINT [PK_Users] PRIMARY KEY ([Id]);
+2025-06-07 12:58:13.072 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Reports] ADD CONSTRAINT [PK_Reports] PRIMARY KEY ([Id]);
+2025-06-07 12:58:13.077 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [FoundItems] ADD CONSTRAINT [PK_FoundItems] PRIMARY KEY ([Id]);
+2025-06-07 12:58:13.080 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [FoundItems] ADD CONSTRAINT [FK_FoundItems_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE NO ACTION;
+2025-06-07 12:58:13.088 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [LostItems] ADD CONSTRAINT [FK_LostItems_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE NO ACTION;
+2025-06-07 12:58:13.090 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Match] ADD CONSTRAINT [FK_Match_FoundItems_FoundItemId] FOREIGN KEY ([FoundItemId]) REFERENCES [FoundItems] ([Id]) ON DELETE NO ACTION;
+2025-06-07 12:58:13.091 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Notification] ADD CONSTRAINT [FK_Notification_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE NO ACTION;
+2025-06-07 12:58:13.093 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Reports] ADD CONSTRAINT [FK_Reports_FoundItems_FoundItemId] FOREIGN KEY ([FoundItemId]) REFERENCES [FoundItems] ([Id]) ON DELETE NO ACTION;
+2025-06-07 12:58:13.094 +04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Reports] ADD CONSTRAINT [FK_Reports_LostItems_LostItemId] FOREIGN KEY ([LostItemId]) REFERENCES [LostItems] ([Id]) ON DELETE NO ACTION;
+2025-06-07 12:58:13.096 +04:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Reports] ADD CONSTRAINT [FK_Reports_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE NO ACTION;
+2025-06-07 12:58:13.099 +04:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250607085800_tables_updated', N'9.0.0');
+2025-06-07 12:58:13.112 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DECLARE @result int;
+EXEC @result = sp_releaseapplock @Resource = '__EFMigrationsLock', @LockOwner = 'Session';
+SELECT @result
+2025-06-07 12:58:24.871 +04:00 [INF] Registered 11 endpoints in 143 milliseconds.
+2025-06-07 12:58:25.660 +04:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-07 12:58:25.711 +04:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0
+2025-06-07 12:58:25.957 +04:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Contributors] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-06-07 12:58:26.035 +04:00 [INF] Now listening on: https://localhost:57679
+2025-06-07 12:58:26.043 +04:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-06-07 12:58:26.091 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-07 12:58:26.092 +04:00 [INF] Hosting environment: Development
+2025-06-07 12:58:26.095 +04:00 [INF] Content root path: C:\Users\amiro\OneDrive - Baku State University\Desktop\Lost_And_Found\Lost_And_Found\src\Lost_And_Found.Web
+2025-06-07 12:58:26.464 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/index.html - null null
+2025-06-07 12:58:26.616 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/index.html - 200 null text/html; charset=utf-8 152.6525ms
+2025-06-07 12:58:26.639 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-07 12:58:26.639 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/_vs/browserLink - null null
+2025-06-07 12:58:26.646 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 6.2721ms
+2025-06-07 12:58:26.673 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.5022ms
+2025-06-07 12:58:27.046 +04:00 [INF] Request starting HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - null null
+2025-06-07 12:58:27.095 +04:00 [INF] Request finished HTTP/2 GET https://localhost:57679/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 49.1423ms

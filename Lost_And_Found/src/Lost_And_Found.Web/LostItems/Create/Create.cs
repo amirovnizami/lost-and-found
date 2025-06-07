@@ -12,7 +12,11 @@ public class Create(IMediator mediator) : Endpoint<CreateLostItemRequest, Create
     {
       s.ExampleRequest = new CreateLostItemRequest
       {
-        ItemName = "Item Name", Description = "Description", Location = "Location", LostDate = DateTime.Now
+        ItemName = "Item Name",
+        Description = "Description",
+        Location = "Location",
+        LostDate = DateTime.Now,
+        Reward = "100$"
       };
     });
   }
@@ -22,10 +26,10 @@ public class Create(IMediator mediator) : Endpoint<CreateLostItemRequest, Create
     var result =
       await mediator.Send(
         new CreateLostItemCommand(request.ItemName, request.Description!, request.ImageUrl!, request.Location,
-          request.LostDate), ct);
+          request.LostDate, request.Reward!), ct);
     if (result.IsSuccess)
     {
-      Response = new CreateLostItemResponse(request.ItemName, request.Description!, request.Location, request.LostDate);
+      Response = new CreateLostItemResponse(request.ItemName, request.Description!, request.Location, request.LostDate, request.Reward);
     }
   }
 }

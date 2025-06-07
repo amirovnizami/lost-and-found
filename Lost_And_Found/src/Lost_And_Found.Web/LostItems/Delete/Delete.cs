@@ -17,7 +17,6 @@ public class Delete(IMediator mediator) :Endpoint<DeleteLostItemRequest>
     var result = await mediator.Send(command,ct);
     if (result.Status == ResultStatus.NotFound)
     {
-      await SendNotFoundAsync(ct);
       return;
     }
 

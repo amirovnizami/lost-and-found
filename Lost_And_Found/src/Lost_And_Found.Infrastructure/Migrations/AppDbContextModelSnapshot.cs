@@ -56,7 +56,7 @@ namespace Lost_And_Found.Infrastructure.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("FoundItem");
+                    b.ToTable("FoundItems");
                 });
 
             modelBuilder.Entity("LostAndFound.Project.Core.LostItemAggregate.LostItem", b =>
@@ -75,6 +75,9 @@ namespace Lost_And_Found.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("IsFound")
+                        .HasColumnType("bit");
+
                     b.Property<string>("ItemName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -85,6 +88,9 @@ namespace Lost_And_Found.Infrastructure.Migrations
 
                     b.Property<DateTime>("LostDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("Reward")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("UserId")
                         .HasColumnType("int");
@@ -185,7 +191,7 @@ namespace Lost_And_Found.Infrastructure.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Report");
+                    b.ToTable("Reports");
                 });
 
             modelBuilder.Entity("LostAndFound.Project.Core.UserAggregate.User", b =>
@@ -217,7 +223,7 @@ namespace Lost_And_Found.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("User");
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("Lost_And_Found.Core.ContributorAggregate.Contributor", b =>

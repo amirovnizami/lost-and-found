@@ -7,7 +7,7 @@ public class CreateLostItemHandler(IRepository<LostItem> repository):ICommandHan
   public async Task<Result<int>> Handle(CreateLostItemCommand request, CancellationToken cancellationToken)
   {
     var newLostItem = new LostItem(request.ItemName, request.Description, request.ImageUrl, request.Location,
-      request.LostDate, 1);
+      request.LostDate,request.Reward, 1);
     var createdItem = await repository.AddAsync(newLostItem,cancellationToken);
     return createdItem.Id;
   }

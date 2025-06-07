@@ -47,9 +47,161 @@
             }
           }
         }
+      },
+      "get": {
+        "tags": [
+          "Lost-Items"
+        ],
+        "operationId": "Lost_And_FoundWebLostItemsListList",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ListLostItemResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/users": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "operationId": "Lost_And_FoundWebUsersCreateCreate",
+        "requestBody": {
+          "x-name": "CreateUserRequest",
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateUserRequest"
+              }
+            }
+          },
+          "required": true,
+          "x-position": 1
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CreateUserResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
       }
     },
     "/lost-items/{itemId}": {
+      "put": {
+        "tags": [
+          "Lost-Items"
+        ],
+        "operationId": "Lost_And_FoundWebLostItemsUpdateUpdate",
+        "parameters": [
+          {
+            "name": "itemId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "x-name": "UpdateLostItemRequest",
+          "description": "",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateLostItemRequest"
+              }
+            }
+          },
+          "required": true,
+          "x-position": 1
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UpdateLostItemResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Lost-Items"
+        ],
+        "operationId": "Lost_And_FoundWebLostItemsGetByIdGetById",
+        "parameters": [
+          {
+            "name": "itemId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LostItemRecord"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      },
       "delete": {
         "tags": [
           "Lost-Items"
@@ -298,6 +450,9 @@
           "lostDate": {
             "type": "string",
             "format": "date-time"
+          },
+          "reward": {
+            "type": "string"
           }
         }
       },
@@ -308,7 +463,8 @@
           "description": "Description",
           "imageUrl": null,
           "location": "Location",
-          "lostDate": "2025-06-04T23:30:19.6734808+04:00"
+          "lostDate": "2025-06-07T12:58:24.8567494+04:00",
+          "reward": "100$"
         },
         "additionalProperties": false,
         "required": [
@@ -340,6 +496,10 @@
             "format": "date-time",
             "minLength": 1,
             "nullable": false
+          },
+          "reward": {
+            "type": "string",
+            "nullable": true
           }
         }
       },
@@ -370,6 +530,143 @@
             }
           }
         }
+      },
+      "CreateUserResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "email": {
+            "type": "string"
+          },
+          "password": {
+            "type": "string"
+          },
+          "phoneNumber": {
+            "type": "string"
+          },
+          "isAdmin": {
+            "type": "boolean"
+          }
+        }
+      },
+      "CreateUserRequest": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "email",
+          "password",
+          "phoneNumber"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "nullable": false
+          },
+          "email": {
+            "type": "string",
+            "format": "email",
+            "minLength": 1,
+            "pattern": "^[^@]+@[^@]+$",
+            "nullable": false
+          },
+          "password": {
+            "type": "string",
+            "minLength": 6,
+            "nullable": false
+          },
+          "phoneNumber": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^\\d{10}$",
+            "nullable": false
+          },
+          "isAdmin": {
+            "type": "boolean"
+          }
+        }
+      },
+      "UpdateLostItemResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "lostItem": {
+            "$ref": "#/components/schemas/LostItemRecord"
+          }
+        }
+      },
+      "LostItemRecord": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "itemName": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "lostDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "location": {
+            "type": "string"
+          },
+          "isFound": {
+            "type": "boolean"
+          },
+          "reward": {
+            "type": "string"
+          },
+          "imageUrl": {
+            "type": "string"
+          }
+        }
+      },
+      "UpdateLostItemRequest": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "itemName"
+        ],
+        "properties": {
+          "itemName": {
+            "type": "string",
+            "maxLength": 100,
+            "minLength": 2,
+            "nullable": false
+          },
+          "description": {
+            "type": "string"
+          },
+          "imageUrl": {
+            "type": "string"
+          }
+        }
+      },
+      "ListLostItemResponse": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "lostItems": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/LostItemRecord"
+            }
+          }
+        }
+      },
+      "GetByIdLostItemRequest": {
+        "type": "object",
+        "additionalProperties": false
       },
       "DeleteLostItemRequest": {
         "type": "object",

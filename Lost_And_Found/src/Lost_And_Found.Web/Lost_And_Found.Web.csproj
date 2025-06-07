@@ -12,6 +12,7 @@
     <PackageReference Include="Ardalis.ListStartupServices" />
     <PackageReference Include="Ardalis.Result" />
     <PackageReference Include="Ardalis.Result.AspNetCore" />
+    <PackageReference Include="AutoMapper" />
     <PackageReference Include="FastEndpoints" />
     <PackageReference Include="FastEndpoints.Swagger" />
     <PackageReference Include="MediatR" />
@@ -25,6 +26,12 @@
   <ItemGroup>
     <ProjectReference Include="..\Lost_And_Found.Infrastructure\Lost_And_Found.Infrastructure.csproj" />
     <ProjectReference Include="..\Lost_And_Found.UseCases\Lost_And_Found.UseCases.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Users\Delete\" />
+    <Folder Include="Users\Get\" />
+    <Folder Include="Users\Update\" />
   </ItemGroup>
 
 </Project>

@@ -2,6 +2,7 @@
 
 var builder = WebApplication.CreateBuilder(args);
 
+MapperConfig.ConfigureMapper(builder.Services);
 var logger = Log.Logger = new LoggerConfiguration()
   .Enrich.FromLogContext()
   .WriteTo.Console()

@@ -11,4 +11,5 @@ public class CreateLostItemRequest
   public string? ImageUrl { get; set; }
   public required string Location { get; set; }
   public required DateTime LostDate { get; set; }
+  public string? Reward { get; set; }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mPx41IMthoBHpbsGn86NO/4K254+s/mO8qnPF0+SoEE=",
+  "Hash": "C0z1oE3GmRLbIRRDUh40B+D/QK9Eo1wm7BpyhgHbs7A=",
   "Source": "Lost_And_Found.Web",
   "BasePath": "_content/Lost_And_Found.Web",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Lost_And_Found.Web\\wwwroot",
       "Source": "Lost_And_Found.Web",
-      "ContentRoot": "C:\\Users\\amiro\\source\\repos\\Lost_And_Found\\Lost_And_Found\\src\\Lost_And_Found.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\amiro\\OneDrive - Baku State University\\Desktop\\Lost_And_Found\\Lost_And_Found\\src\\Lost_And_Found.Web\\wwwroot\\",
       "BasePath": "_content/Lost_And_Found.Web",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\amiro\\source\\repos\\Lost_And_Found\\Lost_And_Found\\src\\Lost_And_Found.Web\\wwwroot\\.gitkeep",
+      "Identity": "C:\\Users\\amiro\\OneDrive - Baku State University\\Desktop\\Lost_And_Found\\Lost_And_Found\\src\\Lost_And_Found.Web\\wwwroot\\.gitkeep",
       "SourceId": "Lost_And_Found.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\amiro\\source\\repos\\Lost_And_Found\\Lost_And_Found\\src\\Lost_And_Found.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\amiro\\OneDrive - Baku State University\\Desktop\\Lost_And_Found\\Lost_And_Found\\src\\Lost_And_Found.Web\\wwwroot\\",
       "BasePath": "_content/Lost_And_Found.Web",
       "RelativePath": "#[.{fingerprint}]?.gitkeep",
       "AssetKind": "All",
@@ -41,7 +41,7 @@
   "Endpoints": [
     {
       "Route": ".5ipweew5fc.gitkeep",
-      "AssetFile": "C:\\Users\\amiro\\source\\repos\\Lost_And_Found\\Lost_And_Found\\src\\Lost_And_Found.Web\\wwwroot\\.gitkeep",
+      "AssetFile": "C:\\Users\\amiro\\OneDrive - Baku State University\\Desktop\\Lost_And_Found\\Lost_And_Found\\src\\Lost_And_Found.Web\\wwwroot\\.gitkeep",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -86,7 +86,7 @@
     },
     {
       "Route": ".gitkeep",
-      "AssetFile": "C:\\Users\\amiro\\source\\repos\\Lost_And_Found\\Lost_And_Found\\src\\Lost_And_Found.Web\\wwwroot\\.gitkeep",
+      "AssetFile": "C:\\Users\\amiro\\OneDrive - Baku State University\\Desktop\\Lost_And_Found\\Lost_And_Found\\src\\Lost_And_Found.Web\\wwwroot\\.gitkeep",
       "Selectors": [],
       "ResponseHeaders": [
         {

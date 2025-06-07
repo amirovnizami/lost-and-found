@@ -2,7 +2,7 @@
 
 namespace LostAndFound.Project.Core.MatchAggregate;
 
-public class Match:EntityBase,IAggregateRoot
+public class Match : EntityBase, IAggregateRoot
 {
   public Match(int lostItemId, int foundItemId,  DateTime createdAt, double matchScore)
   {

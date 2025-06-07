@@ -40,6 +40,7 @@
           "Ardalis.ListStartupServices": "1.1.4",
           "Ardalis.Result": "10.1.0",
           "Ardalis.Result.AspNetCore": "10.1.0",
+          "AutoMapper": "14.0.0",
           "FastEndpoints": "5.32.0",
           "FastEndpoints.Swagger": "5.31.0",
           "Lost_And_Found.Infrastructure": "1.0.0",
@@ -462,6 +463,20 @@
         },
         "compile": {
           "lib/net8.0/Ardalis.Specification.EntityFrameworkCore.dll": {}
+        }
+      },
+      "AutoMapper/14.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Options": "9.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/AutoMapper.dll": {
+            "assemblyVersion": "14.0.0.0",
+            "fileVersion": "14.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/net8.0/AutoMapper.dll": {}
         }
       },
       "Azure.Core/1.44.1": {
@@ -2206,6 +2221,7 @@
         "dependencies": {
           "Ardalis.SharedKernel": "2.1.1",
           "Ardalis.Specification.EntityFrameworkCore": "8.0.0",
+          "AutoMapper": "14.0.0",
           "Azure.Identity": "1.13.1",
           "Lost_And_Found.Core": "1.0.0",
           "Lost_And_Found.UseCases": "1.0.0",
@@ -4120,6 +4136,13 @@
       "sha512": "sha512-fDaCf5/7rm7Ul7yE8YafyWhxCSmWCPd+/4BUxM26Hbnb2PKZJssjAevzx9ZceASJKe4HUndSEKXJ8iz+R3rsIw==",
       "path": "ardalis.specification.entityframeworkcore/8.0.0",
       "hashPath": "ardalis.specification.entityframeworkcore.8.0.0.nupkg.sha512"
+    },
+    "AutoMapper/14.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OC+1neAPM4oCCqQj3g2GJ2shziNNhOkxmNB9cVS8jtx4JbgmRzLcUOxB9Tsz6cVPHugdkHgCaCrTjjSI0Z5sCQ==",
+      "path": "automapper/14.0.0",
+      "hashPath": "automapper.14.0.0.nupkg.sha512"
     },
     "Azure.Core/1.44.1": {
       "type": "package",
